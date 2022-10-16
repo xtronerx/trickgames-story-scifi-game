@@ -17,6 +17,7 @@ public class Gun : MonoBehaviour
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
     public bool Automatic;
+    public bool infiniteAmmo = false;   //added for the InfiniteAmmoTrigger script, used in the "Shoot" method - Kribo
 
     private float nextTimeToFire;
 
@@ -85,7 +86,8 @@ public class Gun : MonoBehaviour
         //particle when you shoot
         muzzleFlash.Play();
 
-        currentAmmo--;
+        if (!infiniteAmmo)                          //this will just ask if the variable infiniteAmmo is false; if it is, then the currentAmmo value will go down; if it's true, then the currentAmmo value will not go down - Kribo
+            currentAmmo--;
 
         //Raycast, using instead of bullet.
         RaycastHit hit;
