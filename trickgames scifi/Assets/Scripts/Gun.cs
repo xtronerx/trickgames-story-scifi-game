@@ -7,13 +7,12 @@ public class Gun : MonoBehaviour
     public float range = 100f;
     public float fireRate = 15f;
     public float impactForce = 30f;
-
-    public int maxAmmo = 10;
+     public int maxAmmo = 10;
     private int currentAmmo;
     public float reloadTime;
     private bool isReloading = false;
 
-    public Camera fpsCam;
+    [SerializeField] private Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
     public bool Automatic;
