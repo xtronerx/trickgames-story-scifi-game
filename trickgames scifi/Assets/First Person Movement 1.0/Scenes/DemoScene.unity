@@ -971,7 +971,7 @@ MonoBehaviour:
   fireRate: 21.9
   impactForce: 84.5
   maxAmmo: 60
-  reloadTime: 4
+  reloadTime: 3
   fpsCam: {fileID: 756305644}
   muzzleFlash: {fileID: 8112702551371147056, guid: 65e2ed3057fdbe349a74fbaf006053db,
     type: 3}
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3fac996ead146c4bbe87a2f95d85787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 140
+  health: 309.3
 --- !u!54 &1741979329
 Rigidbody:
   m_ObjectHideFlags: 0
