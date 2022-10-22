@@ -1297,6 +1297,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3068090257969203257, guid: 90d195eca3374f34c9ccafcf40c031fc,
         type: 3}
+      propertyPath: jumpForce
+      value: 13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068090257969203257, guid: 90d195eca3374f34c9ccafcf40c031fc,
+        type: 3}
+      propertyPath: gravityForce
+      value: 17.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068090257969203257, guid: 90d195eca3374f34c9ccafcf40c031fc,
+        type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
