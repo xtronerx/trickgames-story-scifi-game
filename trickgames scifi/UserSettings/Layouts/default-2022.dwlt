@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 372
     height: 428
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 800.80005
     height: 428
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -408,7 +408,8 @@ MonoBehaviour:
     m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames: []
+    m_ClassNames:
+    - scene
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -419,14 +420,14 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: t:scene
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kalkr\OneDrive\Documents\GitHub\trickgames-story-scifi-game\trickgames
     scifi
@@ -434,8 +435,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e740000
-    m_LastClickedID: 29758
+    m_SelectedIDs: 3c740000
+    m_LastClickedID: 29756
     m_ExpandedIDs: 000000003c740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -596,9 +597,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 5e7d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: e0faffff26fbffff2afbffff2cfbffff70710000
+      m_ExpandedIDs: 9691ffff46f0ffff10f1ffff0ef2ffffb6f2ffffc4f6ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -960,9 +961,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1515343, y: 5.451866, z: 1.0839957}
+    m_Target: {x: 4.854677, y: 9.931897, z: 0.35429525}
     speed: 2
-    m_Value: {x: 1.1515343, y: 5.451866, z: 1.0839957}
+    m_Value: {x: 4.854677, y: 9.931897, z: 0.35429525}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1008,9 +1009,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.080439836, y: -0.72299314, z: 0.08542754, w: 0.6808336}
+    m_Target: {x: -0.1102896, y: 0.8458663, z: -0.19226892, w: -0.48518878}
     speed: 2
-    m_Value: {x: 0.08043896, y: -0.7229852, z: 0.0854266, w: 0.6808261}
+    m_Value: {x: -0.10999948, y: 0.8465808, z: -0.19243135, w: -0.4839124}
   m_Size:
     m_Target: 1.5057572
     speed: 2
